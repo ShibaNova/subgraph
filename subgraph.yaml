@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: PancakeSwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
-repository: https://github.com/autoshark-finance/autoshark-subgraph-v1
+description: Shibanova is a decentralized protocol for automated token exchange on Binance Smart Chain.
+repository: https://github.com/ShibaNova/subgraph
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xe759dd4b9f99392be64f1050a6a8018f73b53a13'
+      address: '0x251912dE998ec91DFDf67EfBe032d6f4aB5EC485'
       abi: Factory
-      startBlock: 10962344
+      startBlock: 9212526
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

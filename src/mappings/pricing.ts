@@ -4,9 +4,9 @@ import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
 const WBNB_ADDRESS = '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
-const BUSD_WBNB_PAIR = '0xd636ea3609615ad8aa667509c50946098454ead2' // created block 4857769
-const DAI_WBNB_PAIR = '0xf3010261b58b2874639ca2e860e9005e3be5de0b' // created block 481116
-const USDT_WBNB_PAIR = '0xbbbb885789bcc958da3de78748e0f40510d6a99b' // created block 648115
+const BUSD_WBNB_PAIR = '0xe20E810Cbe229E9AbAd210adfFF59B1EB723acEa' // created block 4857769
+const DAI_WBNB_PAIR = '0x3d40E6de751b264c4328C11f17Ab5448A519AC36' // created block 481116
+const USDT_WBNB_PAIR = '0x05a551ddFDdBF11cf929D40a9075812b5E768E93' // created block 648115
 
 export function getEthPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin
@@ -47,11 +47,9 @@ let WHITELIST: string[] = [
   '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
   '0x23396cf899ca06c4472205fc903bdb4de249d6fc', // UST
   '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', // DAI
-  '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7', // VAI
   '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c', // BTCB
   '0x2170ed0880ac9a755fd29b2688956bd959f933f8', // WETH
-  '0x250632378e573c6be1ac2f97fcdf00515d0aa91b', // BETH
-  '0x1b219Aca875f8C74c33CFF9fF98f3a9b62fCbff5', // FINS
+  '0x56E344bE9A7a7A1d27C854628483Efd67c11214F', // NOVA
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
