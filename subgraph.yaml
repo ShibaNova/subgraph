@@ -1,4 +1,4 @@
-specVersion: 0.0.2
+specVersion: 1.0.0
 description: Shibanova is a decentralized protocol for automated token exchange on Binance Smart Chain.
 repository: https://github.com/ShibaNova/subgraph
 schema:
@@ -13,7 +13,7 @@ dataSources:
       startBlock: 9212526
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 1.0.0
       language: wasm/assemblyscript
       file: ./src/mappings/factory.ts
       entities:
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 1.0.0
       language: wasm/assemblyscript
       file: ./src/mappings/core.ts
       entities:
